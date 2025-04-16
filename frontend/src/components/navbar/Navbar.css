@@ -1,0 +1,128 @@
+@import url('../assets/css/styles.css');
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    padding: 0px 30px;
+    background: rgba(0, 0, 0, 0.8);
+    letter-spacing: 1px;
+    font-family: var(--font-family);
+    width: 100%;
+
+}
+
+
+
+.navbar-container .company-logo-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--prime-color);
+
+
+
+}
+
+.company-logo-name .company-logo {
+    font-size: 3rem;
+}
+
+.company-logo-name .company-name {
+    margin-top: 30px;
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--prime-color);
+}
+
+.paymnet-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 40px;
+    padding: 10px;
+    border: 1.5px solid var(--prime-color);
+}
+
+.paymnet-option>h4 {
+    color: var(--font-color);
+}
+
+.paymnet-option .cryptocurrency-icons {
+    font-size: 1.2rem;
+    color: var(--prime-color);
+
+}
+
+.navbarTools {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+}
+
+.navbarTools .navbarTools-link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--font-color);
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease-in-out;
+    color: var(--prime-color);
+    transition: 0.4s ease-in-out;
+}
+
+.navbarTools .navbarTools-link:hover {
+    border-bottom: 2px solid var(--prime-shine);
+}
+
+.navbarTools .navbarTools-link:nth-child(3) {
+
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: var(--prime-color);
+    border: 1px solid var(--prime-color);
+    transition: 0.3s ease-in-out;
+}
+
+.navbarTools .navbarTools-link:nth-child(3):hover {
+    background: var(--prime-shine);
+    color: var(--font-color);
+}
+
+
+.phone-view {
+    display: none;
+}
+
+
+
+
+/* ------------------------------------------- */
+@media (max-width:700px) {
+    .navbar-container .company-logo-name {
+        display: none;
+    }
+
+    .paymnet-option,
+    .navbarTools {
+        display: none;
+    }
+
+    .phone-view {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        font-size: 3rem;
+        color: var(--prime-shine);
+        padding: 10px;
+
+    }
+}

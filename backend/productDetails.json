@@ -1,0 +1,323 @@
+{
+  "clothData": [
+    {
+      "id": 1,
+      "productName": "Shuffle Hoodie",
+      "productPrice": 80,
+      "productDescription": "Shuffle Black Cotton-blend fleece hoodie",
+      "productSize": [
+        "xs",
+        "s",
+        "m",
+        "l",
+        "xl",
+        "2xl"
+      ],
+      "productImages": [
+        {
+          "photos1": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fbh4_6e2b3d68-a648-4ce9-8361-62c610488872.png%3Fv%3D1715925622&w=1920&q=75"
+        },
+        {
+          "photos2": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2F1blkhoodiefrontflat_770ffc63-e652-483a-b092-2dc6f8774e1d.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos3": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2F1blkhoodiebackflat_1e008c36-3791-4bfc-8ef8-3c01727a0ac1.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos4": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fbh1.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos5": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fblackhoodie.png%3Fv%3D1715925622&w=1080&q=75"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "productName": "Urban Hoodie",
+      "productPrice": 85,
+      "productDescription": "Stylish urban fleece hoodie for daily wear",
+      "productSize": [
+        "xs",
+        "s",
+        "m",
+        "l",
+        "xl",
+        "2xl"
+      ],
+      "productImages": [
+        {
+          "photos1": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fbh4_6e2b3d68-a648-4ce9-8361-62c610488872.png%3Fv%3D1715925622&w=1920&q=75"
+        },
+        {
+          "photos2": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2F1blkhoodiefrontflat_770ffc63-e652-483a-b092-2dc6f8774e1d.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos3": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2F1blkhoodiebackflat_1e008c36-3791-4bfc-8ef8-3c01727a0ac1.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos4": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fbh1.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos5": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fblackhoodie.png%3Fv%3D1715925622&w=1080&q=75"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "productName": "Classic Sweatshirt",
+      "productPrice": 75,
+      "productDescription": "Comfortable cotton sweatshirt for casual occasions",
+      "productSize": [
+        "xs",
+        "s",
+        "m",
+        "l",
+        "xl",
+        "2xl"
+      ],
+      "productImages": [
+        {
+          "photos1": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fbh4_6e2b3d68-a648-4ce9-8361-62c610488872.png%3Fv%3D1715925622&w=1920&q=75"
+        },
+        {
+          "photos2": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2F1blkhoodiefrontflat_770ffc63-e652-483a-b092-2dc6f8774e1d.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos3": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2F1blkhoodiebackflat_1e008c36-3791-4bfc-8ef8-3c01727a0ac1.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos4": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fbh1.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos5": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fblackhoodie.png%3Fv%3D1715925622&w=1080&q=75"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "productName": "Cozy Zip Hoodie",
+      "productPrice": 90,
+      "productDescription": "Warm and stylish zip-up hoodie for winter",
+      "productSize": [
+        "xs",
+        "s",
+        "m",
+        "l",
+        "xl",
+        "2xl"
+      ],
+      "productImages": [
+        {
+          "photos1": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fbh4_6e2b3d68-a648-4ce9-8361-62c610488872.png%3Fv%3D1715925622&w=1920&q=75"
+        },
+        {
+          "photos2": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2F1blkhoodiefrontflat_770ffc63-e652-483a-b092-2dc6f8774e1d.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos3": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2F1blkhoodiebackflat_1e008c36-3791-4bfc-8ef8-3c01727a0ac1.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos4": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fbh1.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos5": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fblackhoodie.png%3Fv%3D1715925622&w=1080&q=75"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "productName": "Streetwear Hoodie",
+      "productPrice": 88,
+      "productDescription": "Trendy streetwear hoodie with a modern fit",
+      "productSize": [
+        "xs",
+        "s",
+        "m",
+        "l",
+        "xl",
+        "2xl"
+      ],
+      "productImages": [
+        {
+          "photos1": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fbh4_6e2b3d68-a648-4ce9-8361-62c610488872.png%3Fv%3D1715925622&w=1920&q=75"
+        },
+        {
+          "photos2": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2F1blkhoodiefrontflat_770ffc63-e652-483a-b092-2dc6f8774e1d.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos3": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2F1blkhoodiebackflat_1e008c36-3791-4bfc-8ef8-3c01727a0ac1.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos4": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fbh1.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos5": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fblackhoodie.png%3Fv%3D1715925622&w=1080&q=75"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "productName": "Minimalist Hoodie",
+      "productPrice": 82,
+      "productDescription": "A clean and simple hoodie for everyday style",
+      "productSize": [
+        "xs",
+        "s",
+        "m",
+        "l",
+        "xl",
+        "2xl"
+      ],
+      "productImages": [
+        {
+          "photos1": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fbh4_6e2b3d68-a648-4ce9-8361-62c610488872.png%3Fv%3D1715925622&w=1920&q=75"
+        },
+        {
+          "photos2": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2F1blkhoodiefrontflat_770ffc63-e652-483a-b092-2dc6f8774e1d.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos3": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2F1blkhoodiebackflat_1e008c36-3791-4bfc-8ef8-3c01727a0ac1.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos4": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fbh1.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos5": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fblackhoodie.png%3Fv%3D1715925622&w=1080&q=75"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "productName": "Retro Hoodie",
+      "productPrice": 78,
+      "productDescription": "Vintage-inspired hoodie with a relaxed fit",
+      "productSize": [
+        "xs",
+        "s",
+        "m",
+        "l",
+        "xl",
+        "2xl"
+      ],
+      "productImages": [
+        {
+          "photos1": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fbh4_6e2b3d68-a648-4ce9-8361-62c610488872.png%3Fv%3D1715925622&w=1920&q=75"
+        },
+        {
+          "photos2": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2F1blkhoodiefrontflat_770ffc63-e652-483a-b092-2dc6f8774e1d.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos3": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2F1blkhoodiebackflat_1e008c36-3791-4bfc-8ef8-3c01727a0ac1.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos4": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fbh1.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos5": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fblackhoodie.png%3Fv%3D1715925622&w=1080&q=75"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "productName": "Performance Hoodie",
+      "productPrice": 95,
+      "productDescription": "Breathable and flexible hoodie for sports and training",
+      "productSize": [
+        "xs",
+        "s",
+        "m",
+        "l",
+        "xl",
+        "2xl"
+      ],
+      "productImages": [
+        {
+          "photos1": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fbh4_6e2b3d68-a648-4ce9-8361-62c610488872.png%3Fv%3D1715925622&w=1920&q=75"
+        },
+        {
+          "photos2": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2F1blkhoodiefrontflat_770ffc63-e652-483a-b092-2dc6f8774e1d.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos3": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2F1blkhoodiebackflat_1e008c36-3791-4bfc-8ef8-3c01727a0ac1.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos4": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fbh1.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos5": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fblackhoodie.png%3Fv%3D1715925622&w=1080&q=75"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "productName": "Heavyweight Hoodie",
+      "productPrice": 100,
+      "productDescription": "Extra thick and warm hoodie for cold weather",
+      "productSize": [
+        "xs",
+        "s",
+        "m",
+        "l",
+        "xl",
+        "2xl"
+      ],
+      "productImages": [
+        {
+          "photos1": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fbh4_6e2b3d68-a648-4ce9-8361-62c610488872.png%3Fv%3D1715925622&w=1920&q=75"
+        },
+        {
+          "photos2": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2F1blkhoodiefrontflat_770ffc63-e652-483a-b092-2dc6f8774e1d.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos3": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2F1blkhoodiebackflat_1e008c36-3791-4bfc-8ef8-3c01727a0ac1.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos4": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fbh1.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos5": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fblackhoodie.png%3Fv%3D1715925622&w=1080&q=75"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "productName": "Tech Hoodie",
+      "productPrice": 110,
+      "productDescription": "High-tech fabric hoodie with moisture-wicking properties",
+      "productSize": [
+        "xs",
+        "s",
+        "m",
+        "l",
+        "xl",
+        "2xl"
+      ],
+      "productImages": [
+        {
+          "photos1": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fbh4_6e2b3d68-a648-4ce9-8361-62c610488872.png%3Fv%3D1715925622&w=1920&q=75"
+        },
+        {
+          "photos2": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2F1blkhoodiefrontflat_770ffc63-e652-483a-b092-2dc6f8774e1d.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos3": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2F1blkhoodiebackflat_1e008c36-3791-4bfc-8ef8-3c01727a0ac1.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos4": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fbh1.png%3Fv%3D1715925622&w=1080&q=75"
+        },
+        {
+          "photos5": "https://shuffle.store/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0603%2F2028%2F4765%2Ffiles%2Fblackhoodie.png%3Fv%3D1715925622&w=1080&q=75"
+        }
+      ]
+    }
+  ],
+  "cart": [
+    {
+      "id": 499293,
+      "clothName": "Shuffle Hoodie",
+      "price": 80,
+      "quantity": 2,
+      "size": "xs"
+    }
+  ]
+}

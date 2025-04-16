@@ -1,0 +1,131 @@
+@import url('../assets/css/styles.css');
+
+
+.Footer-container {
+    width: 100%;
+    /* height: 100vh; */
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 80px;
+    background: #000;
+    letter-spacing: 2px;
+    font-family: var(--font-family);
+    font-weight: 400;
+}
+
+.Footer-container .top-footer {
+    width: 100%;
+    height: 400px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.top-footer img {
+    width: 100%;
+    height: 450px;
+    border-radius: 5px;
+}
+
+/* ----------------------------------------------------- */
+
+.footers {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: #000;
+
+}
+
+.footers .navigation-tools {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+
+.navigation-tools .navigation-tools-link {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    border-bottom: 4px solid transparent;
+    transition: 0.3s ease-in;
+    color: var(--font-color);
+}
+
+.navigation-tools .navigation-tools-link:hover {
+    border-bottom: 4px solid var(--prime-shine);
+}
+
+.footers .other-tools {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    color: var(--font-color);
+
+}
+
+
+.refund-privary-tos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+
+.refund-privary-tos .refund-privary-tos-link {
+    text-decoration: none;
+    color: var(--font-color);
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.refund-privary-tos .refund-privary-tos-link:hover {
+    color: grey;
+}
+
+
+@media (max-width:700px) {
+
+    .Footer-container .footers {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .footers .navigation-tools {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        font-size: 1.8rem;
+    }
+
+    .Footer-container .other-tools {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .other-tools .refund-privary-tos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .refund-privary-tos .refund-privary-tos-link {
+        font-size: 0.9rem;
+
+    }
+}

@@ -1,0 +1,17 @@
+@import url('../assets/css/styles.css');
+
+.AfterProductSelction {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-family: var(--font-family);
+}
+
+
+.AfterProductSelction>h1 {
+    color: var(--font-color);
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+}
