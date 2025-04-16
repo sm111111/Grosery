@@ -19,7 +19,7 @@ const _dirname = path.resolve();
 let data = { clothData: [], cart: [] };
 
 try {
-    const rawData = fs.readFileSync('./productDetails.json');
+    const rawData = fs.readFileSync(path.join(__dirname, 'backend', 'productDetails.json'));
     data = JSON.parse(rawData);
 } catch (error) {
     console.error("Error reading or parsing productDetails.json:", error.message);
@@ -65,7 +65,7 @@ app.post('/api/cart', (req, res) => {
     cart.push(newCartItem);
 
     data.cart = cart;
-    fs.writeFileSync('./productDetails.json', JSON.stringify(data, null, 2));
+    fs.writeFileSync(path.join(__dirname, 'backend', 'productDetails.json'), JSON.stringify(data, null, 2));
 
     res.status(201).json({ message: 'Item added to cart successfully!', cart: newCartItem });
 });
@@ -80,7 +80,7 @@ app.delete('/api/cart/:id', (req, res) => {
 
     cart.splice(itemIndex, 1);
     data.cart = cart;
-    fs.writeFileSync('./productDetails.json', JSON.stringify(data, null, 2));
+    fs.writeFileSync(path.join(__dirname, 'backend', 'productDetails.json'), JSON.stringify(data, null, 2));
 
     res.status(200).json({ message: "Item removed from cart successfully" });
 });
