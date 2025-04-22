@@ -27,8 +27,6 @@
     font-weight: 700;
     letter-spacing: 1px;
     background: linear-gradient(90deg, #facc15, #f59e0b);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .payment-option {

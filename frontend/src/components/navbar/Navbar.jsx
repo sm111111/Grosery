@@ -1,16 +1,12 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
-import {
-    GiStaryu,
-    FaBitcoin,
-    FaEthereum,
-    MdOutlineWifiTethering,
-    SiDogecoin,
-    SiBinance,
-    PiShoppingCartSimpleFill,
-    HiOutlineBars4
-} from 'react-icons/all';
+import { GiStaryu } from 'react-icons/gi';
+import { FaBitcoin, FaEthereum } from 'react-icons/fa';
+import { MdOutlineWifiTethering } from 'react-icons/md';
+import { SiDogecoin, SiBinance } from 'react-icons/si';
+import { PiShoppingCartSimpleFill } from 'react-icons/pi';
+import { HiOutlineBars4 } from 'react-icons/hi2';
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
