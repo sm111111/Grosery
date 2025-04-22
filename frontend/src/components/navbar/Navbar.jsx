@@ -24,7 +24,6 @@ const Navbar = () => {
     return <div className='navbar-container'>
 
         <div className="company-logo-name">
-            <GiStaryu className='company-logo' />
             <h1 className='company-name'>STARTHUB STORE</h1>
         </div>
 
