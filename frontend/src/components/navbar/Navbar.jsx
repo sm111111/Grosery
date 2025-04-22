@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
-import { GiStaryu } from 'react-icons/gi';
 import { FaBitcoin, FaEthereum } from 'react-icons/fa';
 import { MdOutlineWifiTethering } from 'react-icons/md';
 import { SiDogecoin, SiBinance } from 'react-icons/si';
@@ -12,32 +11,29 @@ const Navbar = () => {
     const [open, setOpen] = useState(false);
 
     return (
-        <div className='navbar-container'>
-            <div className="company-logo-name">
-                <GiStaryu className="logo-icon" />
-                <h1 className='company-name'>STARTHUB STORE</h1>
-            </div>
+        <header className='glass-navbar'>
+            <h2 className='logo-text'>STARTHUB</h2>
 
-            <div className={`payment-option ${open ? 'show' : ''}`}>
-                <FaBitcoin className='cryptocurrency-icons' />
-                <FaEthereum className='cryptocurrency-icons' />
-                <MdOutlineWifiTethering className='cryptocurrency-icons' />
-                <SiDogecoin className='cryptocurrency-icons' />
-                <SiBinance className='cryptocurrency-icons' />
-            </div>
-
-            <div className={`navbar-tools ${open ? 'show' : ''}`}>
-                <Link to='/all' className='navbar-link'>All Products</Link>
-                <Link to='/collection' className='navbar-link'>Collections</Link>
-                <Link to='/cart' className='navbar-link cart-link'>
-                    <PiShoppingCartSimpleFill className='cart-icon' />
+            <nav className={`nav-links ${open ? 'show' : ''}`}>
+                <Link to='/all'>All Products</Link>
+                <Link to='/collection'>Collections</Link>
+                <Link to='/cart' className='cart-icon-link'>
+                    <PiShoppingCartSimpleFill />
                 </Link>
+            </nav>
+
+            <div className={`crypto-icons ${open ? 'show' : ''}`}>
+                <FaBitcoin />
+                <FaEthereum />
+                <MdOutlineWifiTethering />
+                <SiDogecoin />
+                <SiBinance />
             </div>
 
-            <div className="menu-toggle" onClick={() => setOpen(!open)}>
+            <button className="menu-btn" onClick={() => setOpen(!open)}>
                 <HiOutlineBars4 />
-            </div>
-        </div>
+            </button>
+        </header>
     );
 };
 
