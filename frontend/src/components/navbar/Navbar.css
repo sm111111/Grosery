@@ -1,102 +1,134 @@
 /* Navbar.css */
-
 .navbar-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #111;
+    background-color: #0f172a;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     position: relative;
+    z-index: 1000;
 }
 
 .company-logo-name {
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
-.company-logo {
+.logo-icon {
     font-size: 2rem;
     color: #facc15;
-    margin-right: 10px;
 }
 
 .company-name {
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 1.7rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: linear-gradient(90deg, #facc15, #f59e0b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.paymnet-option {
+.payment-option {
     display: flex;
-    gap: 15px;
+    gap: 18px;
 }
 
 .cryptocurrency-icons {
-    font-size: 1.4rem;
-    color: #f1c40f;
+    font-size: 1.5rem;
+    color: #facc15;
+    transition: transform 0.3s ease;
 }
 
-.navbarTools {
+.cryptocurrency-icons:hover {
+    transform: scale(1.2);
+}
+
+.navbar-tools {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 22px;
 }
 
-.navbarTools-link {
+.navbar-link {
     text-decoration: none;
     color: white;
     font-weight: 500;
     font-size: 1rem;
-    transition: color 0.3s ease;
+    position: relative;
+    transition: all 0.3s ease;
 }
 
-.navbarTools-link:hover {
+.navbar-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 0;
+    bottom: -4px;
+    background: #facc15;
+    transition: width 0.3s;
+}
+
+.navbar-link:hover::after {
+    width: 100%;
+}
+
+.navbar-link:hover {
     color: #facc15;
 }
 
 .cart-icon {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    color: white;
+    transition: color 0.3s ease;
 }
 
-.phone-view {
+.cart-link:hover .cart-icon {
+    color: #facc15;
+}
+
+.menu-toggle {
     display: none;
     font-size: 2rem;
     cursor: pointer;
+    color: #facc15;
 }
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
 
-    .paymnet-option,
-    .navbarTools {
+    .payment-option,
+    .navbar-tools {
         display: none;
         flex-direction: column;
+        align-items: center;
         position: absolute;
         top: 70px;
         left: 0;
-        background-color: rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(10px);
         width: 100%;
         padding: 15px 0;
-        text-align: center;
-        z-index: 999;
+        background-color: rgba(17, 24, 39, 0.9);
+        backdrop-filter: blur(8px);
     }
 
-    .paymnet-option.show,
-    .navbarTools.show {
+    .payment-option.show,
+    .navbar-tools.show {
         display: flex;
     }
 
-    .phone-view {
-        display: block;
-    }
-
-    .navbarTools-link {
+    .navbar-link {
         padding: 10px 0;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     .cryptocurrency-icons {
         font-size: 1.6rem;
+    }
+
+    .menu-toggle {
+        display: block;
     }
 }

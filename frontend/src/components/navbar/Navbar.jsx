@@ -1,53 +1,48 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
-import { GiStaryu } from "react-icons/gi";
-
-import { FaBitcoin } from "react-icons/fa";
-import { FaEthereum } from "react-icons/fa";
-import { MdOutlineWifiTethering } from "react-icons/md";
-import { SiDogecoin } from "react-icons/si";
-import { SiBinance } from "react-icons/si";
-import { PiShoppingCartSimpleFill } from "react-icons/pi";
-import { HiOutlineBars4 } from "react-icons/hi2";
+import {
+    GiStaryu,
+    FaBitcoin,
+    FaEthereum,
+    MdOutlineWifiTethering,
+    SiDogecoin,
+    SiBinance,
+    PiShoppingCartSimpleFill,
+    HiOutlineBars4
+} from 'react-icons/all';
 
 const Navbar = () => {
-    const [open, setOpen] = useState(false)
+    const [open, setOpen] = useState(false);
 
-    const handleopen = () => {
-        setOpen(prev => !prev)
-    }
+    return (
+        <div className='navbar-container'>
+            <div className="company-logo-name">
+                <GiStaryu className="logo-icon" />
+                <h1 className='company-name'>STARTHUB STORE</h1>
+            </div>
 
+            <div className={`payment-option ${open ? 'show' : ''}`}>
+                <FaBitcoin className='cryptocurrency-icons' />
+                <FaEthereum className='cryptocurrency-icons' />
+                <MdOutlineWifiTethering className='cryptocurrency-icons' />
+                <SiDogecoin className='cryptocurrency-icons' />
+                <SiBinance className='cryptocurrency-icons' />
+            </div>
 
+            <div className={`navbar-tools ${open ? 'show' : ''}`}>
+                <Link to='/all' className='navbar-link'>All Products</Link>
+                <Link to='/collection' className='navbar-link'>Collections</Link>
+                <Link to='/cart' className='navbar-link cart-link'>
+                    <PiShoppingCartSimpleFill className='cart-icon' />
+                </Link>
+            </div>
 
-
-    return <div className='navbar-container'>
-
-        <div className="company-logo-name">
-            <h1 className='company-name'>STARTHUB STORE</h1>
+            <div className="menu-toggle" onClick={() => setOpen(!open)}>
+                <HiOutlineBars4 />
+            </div>
         </div>
-
-        <div className={`paymnet-option ${open ? 'show' : ''}`}>
-            <FaBitcoin className='cryptocurrency-icons ' />
-            <FaEthereum className='cryptocurrency-icons' />
-            <MdOutlineWifiTethering className='cryptocurrency-icons' />
-            <SiDogecoin className='cryptocurrency-icons' />
-            <SiBinance className='cryptocurrency-icons' />
-        </div>
-
-        <div className={`navbarTools ${open ? 'show' : ''}`}>
-            <Link to='/all' className='navbarTools-link'>All Products</Link>
-            <Link to='/collection' className='navbarTools-link' >Collections</Link>
-            <Link to='/cart' className='navbarTools-link'>
-                <PiShoppingCartSimpleFill className='cart-icon' />
-            </Link>
-        </div>
-
-        <div className="phone-view" onClick={handleopen} >
-            <HiOutlineBars4 />
-        </div>
-    </div>
-
+    );
 };
 
 export default Navbar;
