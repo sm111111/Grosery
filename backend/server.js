@@ -10,7 +10,7 @@ dotenv.config();
 app.use(express.json());
 
 app.use(cors({
-    origin: 'https://grosery-2.onrender.com/',
+    origin: 'https://grosery-2.onrender.com',
     credentials: true
 }));
 
