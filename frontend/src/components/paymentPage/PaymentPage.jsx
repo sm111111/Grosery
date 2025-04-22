@@ -12,7 +12,7 @@ const PaymentPage = () => {
 
 
     useEffect(() => {
-        axios.get('http://localhost:5000/api/cart')
+        axios.get('https://grosery-2.onrender.com/api/cart')
             .then(response => {
                 const price = response.data.reduce((acc, item) => acc + (item.price * item.quantity), 0);
                 setTotalPrice(price);

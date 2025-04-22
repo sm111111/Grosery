@@ -15,7 +15,7 @@ const DetailsPage = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        axios.get('http://localhost:5000/api/allclothdata')
+        axios.get('https://grosery-2.onrender.com/api/allclothdata')
             .then(response => {
                 const selectedProduct = response.data.find(item => item.id === parseInt(id));
                 setProduct(selectedProduct);
@@ -50,7 +50,7 @@ const DetailsPage = () => {
 
         try {
             // Send the POST request to add the product to the cart
-            await axios.post('http://localhost:5000/api/cart', cartData);
+            await axios.post('https://grosery-2.onrender.com/api/cart', cartData);
             alert("Product added to cart successfully!");
             setTimeout(() => navigate('/cart'), 2000)
         } catch (error) {

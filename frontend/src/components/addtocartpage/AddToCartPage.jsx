@@ -32,7 +32,7 @@ const AddToCartPage = () => {
     }
 
     useEffect(() => {
-        axios.get('http://localhost:5000/api/cart')
+        axios.get('https://grosery-2.onrender.com/api/cart')
             .then(response => {
                 setAllcart(response.data);
             })
@@ -44,7 +44,7 @@ const AddToCartPage = () => {
     // Remove item from the cart
     const removeItem = async (id) => {
         try {
-            await axios.delete(`http://localhost:5000/api/cart/${id}`);
+            await axios.delete(`https://grosery-2.onrender.com/api/cart/${id}`);
             setAllcart(allcart.filter(item => item.id !== id)); // Update local state
         } catch (error) {
             console.error('There was an error removing the item: ', error);

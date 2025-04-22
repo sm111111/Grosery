@@ -12,7 +12,7 @@ const AllProduct = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        axios.get('http://localhost:5000/api/allclothdata')
+        axios.get('https://grosery-2.onrender.com/api/allclothdata')
             .then((response) => setData(response.data))
             .catch((error) => console.error('Error fetching data:', error));
     }, []);
